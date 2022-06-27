@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "TPS6040x")(type "Legacy")(uri "${KIPRJMOD}/../../KicadLibrary/symbol/PWR/DC-DC/CHARGEPUMP/TPS6040x.lib")(options "")(descr ""))
+)
