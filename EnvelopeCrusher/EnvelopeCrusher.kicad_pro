@@ -331,10 +331,10 @@
     ],
     [
       "ebc6b7ad-0288-4bcb-90f7-c5fec31d608a",
-      "InputFilter"
+      "InputBuffer"
     ],
     [
-      "25cd2e0b-a6e1-48ed-8b06-919ea452899e",
+      "985225ff-bdf2-4faf-bf07-f44d56f5be76",
       "OutputBuffer"
     ],
     [
@@ -354,7 +354,15 @@
       "NegVoltRail3"
     ],
     [
-      "4f51fe02-c07e-488a-8847-edaa4b4aedf3",
+      "a8b5b07b-f4c7-4ca0-95dd-d580f553334d",
+      "NegVoltRail3"
+    ],
+    [
+      "4be05bf3-9d19-418a-9bbb-0b1edff8d325",
+      "AnalogSwitch Sheet"
+    ],
+    [
+      "a27db0c1-f1d2-4d0e-acdf-53a5c8049234",
       "NegVoltRail4"
     ]
   ],
