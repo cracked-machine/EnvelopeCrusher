@@ -633,7 +633,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 791f5222-27b0-4f44-9106-f3ff2d9f5b3d)
   )
-  (hierarchical_label "SW_SIGNAL" (shape input) (at 55.88 71.12 180)
+  (hierarchical_label "RELAY_SIGNAL" (shape input) (at 55.88 71.12 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dbcbf0ba-bc4d-4e49-b760-046c72aafa03)
   )

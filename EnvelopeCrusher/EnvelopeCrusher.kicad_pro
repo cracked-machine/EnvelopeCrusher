@@ -310,7 +310,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../doc/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -359,11 +359,19 @@
     ],
     [
       "4be05bf3-9d19-418a-9bbb-0b1edff8d325",
-      "AnalogSwitch Sheet"
+      "AnalogSwitch"
     ],
     [
       "a27db0c1-f1d2-4d0e-acdf-53a5c8049234",
       "NegVoltRail4"
+    ],
+    [
+      "b36f5182-dcf9-4a27-94da-19d85c464c4c",
+      "ENV_CLK_MIX"
+    ],
+    [
+      "2c84b367-cfcc-4fa2-81ef-877ef42bfb7c",
+      "NegVoltRail5"
     ]
   ],
   "text_variables": {}
