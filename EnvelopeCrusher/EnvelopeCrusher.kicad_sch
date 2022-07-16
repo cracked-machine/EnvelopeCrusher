@@ -665,7 +665,7 @@
     (property "Footprint" "DailywellSwitches:Dailywell_DPDT" (id 2) (at 233.68 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 233.68 185.42 0)
+    (property "Datasheet" "https://www.mouser.co.uk/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf" (id 3) (at 233.68 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 01420ca8-a67c-4557-bdbd-5aa11d92ee47))
@@ -701,10 +701,10 @@
     (property "Value" "SW_SPDT" (id 1) (at 287.02 314.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 281.94 314.96 0)
+    (property "Footprint" "DailywellSwitches:Dailywell_SPDT" (id 2) (at 281.94 314.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 281.94 314.96 0)
+    (property "Datasheet" "https://www.mouser.co.uk/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf" (id 3) (at 281.94 314.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 276d98ef-76a0-49ef-9481-37965adde8cd))
@@ -785,7 +785,7 @@
     (property "Footprint" "DailywellSwitches:Dailywell_DPDT" (id 2) (at 382.27 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 382.27 185.42 0)
+    (property "Datasheet" "https://www.mouser.co.uk/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf" (id 3) (at 382.27 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2c01dd7b-22e4-4963-9366-3490b48b0bcb))
@@ -1733,7 +1733,7 @@
       (reference "RL1") (unit 1) (value "HFD4{slash}3-S1") (footprint "Relay_THT:Relay_DPDT_Omron_G2RL")
     )
     (path "/5d00ccff-a592-4e31-88d0-efea6e6f99f5"
-      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "DailywellSwitches:Dailywell_SPDT")
     )
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/4c978eba-9c60-4dc1-859b-e699a70a5963"
       (reference "SW2") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
@@ -1907,25 +1907,25 @@
       (reference "U15") (unit 1) (value "TPS60400") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
     )
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/ff428d36-5846-4c59-8126-a0f2bc41c5c7"
-      (reference "U16") (unit 1) (value "SE82XX-33") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U16") (unit 1) (value "SE82XX-33") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/07d59659-d607-4ac1-8af8-79aab0df53d7/e5ffc028-ee77-401f-ba62-c5f6d09e2723/97dc05cc-aa31-4c52-9063-67b07afd5d4e"
-      (reference "U17") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U17") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/07d59659-d607-4ac1-8af8-79aab0df53d7/10669849-6176-456c-afba-919eb2fa3577/97dc05cc-aa31-4c52-9063-67b07afd5d4e"
-      (reference "U18") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U18") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/ebc6b7ad-0288-4bcb-90f7-c5fec31d608a/a8b5b07b-f4c7-4ca0-95dd-d580f553334d/97dc05cc-aa31-4c52-9063-67b07afd5d4e"
-      (reference "U19") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U19") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/985225ff-bdf2-4faf-bf07-f44d56f5be76/a8b5b07b-f4c7-4ca0-95dd-d580f553334d/97dc05cc-aa31-4c52-9063-67b07afd5d4e"
-      (reference "U20") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U20") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/4be05bf3-9d19-418a-9bbb-0b1edff8d325/a27db0c1-f1d2-4d0e-acdf-53a5c8049234/97dc05cc-aa31-4c52-9063-67b07afd5d4e"
-      (reference "U21") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U21") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/b36f5182-dcf9-4a27-94da-19d85c464c4c/2c84b367-cfcc-4fa2-81ef-877ef42bfb7c/97dc05cc-aa31-4c52-9063-67b07afd5d4e"
-      (reference "U22") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U22") (unit 1) (value "SE82XX-50") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
   )
 )

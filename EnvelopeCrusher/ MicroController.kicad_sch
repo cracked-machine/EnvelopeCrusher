@@ -3895,7 +3895,7 @@
     (uuid ff428d36-5846-4c59-8126-a0f2bc41c5c7)
     (property "Reference" "U16" (id 0) (at 236.22 50.8 0))
     (property "Value" "SE82XX-33" (id 1) (at 236.22 53.34 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 236.22 53.34 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 236.22 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Seaward-Elec-SE8250X2_C437589.pdf" (id 3) (at 238.76 64.77 0)
