@@ -662,7 +662,7 @@
     (uuid 2965aae7-6f95-493e-bcb4-9770441cc211)
     (property "Reference" "SW5" (id 0) (at 233.68 177.8 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 233.68 180.34 0))
-    (property "Footprint" "" (id 2) (at 233.68 185.42 0)
+    (property "Footprint" "DailywellSwitches:Dailywell_DPDT" (id 2) (at 233.68 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 233.68 185.42 0)
@@ -782,7 +782,7 @@
     (uuid cf223d76-8d83-4b19-91ea-62bbdb32f1a8)
     (property "Reference" "SW5" (id 0) (at 382.27 177.8 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 382.27 180.34 0))
-    (property "Footprint" "" (id 2) (at 382.27 185.42 0)
+    (property "Footprint" "DailywellSwitches:Dailywell_DPDT" (id 2) (at 382.27 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 382.27 185.42 0)
@@ -1592,7 +1592,7 @@
       (reference "J2") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/dbbf7dec-944e-491e-81f3-629785497d6d"
-      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "0.96inch_OLED_SSD1306:0.96inch_OLED_SSD1306")
     )
     (path "/cd1dfd36-0f58-432f-b48a-a1633e8b615a"
       (reference "J4") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -1629,6 +1629,9 @@
     )
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/ad2072a7-44c4-424a-a8e9-c0151de1eb9d"
       (reference "JP11") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/c18240b9-6b33-440c-8d5c-1744de96fa45"
+      (reference "JP12") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/d37a9dd9-2de5-4fd7-a169-11276f1f8175"
       (reference "J_IN1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -1735,17 +1738,14 @@
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/4c978eba-9c60-4dc1-859b-e699a70a5963"
       (reference "SW2") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
     )
-    (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/4d6beb78-9723-4955-bd75-2fe3ee7504d0"
-      (reference "SW3") (unit 1) (value "SW_SPST") (footprint "")
-    )
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/b36f5182-dcf9-4a27-94da-19d85c464c4c/73cb570d-068a-47fb-9349-66347d7b9038"
-      (reference "SW4") (unit 1) (value "SW_DIP_x04") (footprint "")
+      (reference "SW4") (unit 1) (value "SW_DIP_x04") (footprint "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile")
     )
     (path "/2965aae7-6f95-493e-bcb4-9770441cc211"
-      (reference "SW5") (unit 1) (value "SW_DPDT_x2") (footprint "")
+      (reference "SW5") (unit 1) (value "SW_DPDT_x2") (footprint "DailywellSwitches:Dailywell_DPDT")
     )
     (path "/cf223d76-8d83-4b19-91ea-62bbdb32f1a8"
-      (reference "SW5") (unit 2) (value "SW_DPDT_x2") (footprint "")
+      (reference "SW5") (unit 2) (value "SW_DPDT_x2") (footprint "DailywellSwitches:Dailywell_DPDT")
     )
     (path "/e3ac1148-cabe-4421-9798-ce3b96d0a6bd/b5d5b644-9a41-4782-b64d-ef9ba7d602f9"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")

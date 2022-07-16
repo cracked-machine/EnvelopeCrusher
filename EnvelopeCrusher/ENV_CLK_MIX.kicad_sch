@@ -820,7 +820,7 @@
     (uuid 73cb570d-068a-47fb-9349-66347d7b9038)
     (property "Reference" "SW4" (id 0) (at 72.39 59.69 0))
     (property "Value" "SW_DIP_x04" (id 1) (at 72.39 62.23 0))
-    (property "Footprint" "" (id 2) (at 72.39 72.39 0)
+    (property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" (id 2) (at 72.39 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 72.39 72.39 0)
